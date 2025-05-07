@@ -39,6 +39,7 @@
         background-color: #238B22;
         border: 1px dashed #000000;
     }
+
 }
 
 /* header */
@@ -156,16 +157,16 @@
     background-color: #21B2AA;
     border: 1px dashed #000000;
     padding: 50px;
-}
-ul {
-    list-style-type: none;
+    font-weight: bold;
 }
 .button-bar {
     background-color: #FEB6C2;
     border: 1px dashed #000000;
     padding: 6px;
 }
-
+ul {
+    list-style-type: none;
+}
 .centra
 {
     transform: translate(-50% , -50%);
@@ -223,4 +224,10 @@ ul {
 }
 .wave-upside-down {
     rotate: 180deg;
+}
+.colore-aqua {
+    color: #7288DA;
+}
+.colore-bianco {
+    color: #ffffff;
 }
