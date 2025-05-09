@@ -7,39 +7,55 @@
 
 /* debug */
 .debug {
-   .logo, .link, .login { 
+.logo, .link, .login { 
         background-color: #DBA521;
         border: 1px dotted #000000;
-    }
-    .status-bar {
+}
+.status-bar {
         background-color: #ADD8E6;
-    }
-    .banner { 
+}
+.banner { 
         background-color: #08008B;
-    }
-    .banner-conteiner {
+}
+.banner-conteiner {
         background-color: #EE82EE;
         border: 1px dashed #000000;
-    }
-    .blue-conteiner {
+}
+.blue-conteiner {
         width: 100%;
         height: 300px;
         background-color: #1D90FF;
         border: 1px dashed #000000;
-    }
-    .pink-conteiner {
+}
+.pink-conteiner {
         width: 65%;
         height: 300px;
         background-color: #FFC0CB;
         border: 1px dashed #000000;
-    }
-    .green-conteiner {
+}
+.green-conteiner {
         width: 100%;
         height: 500px;
         background-color: #238B22;
         border: 1px dashed #000000;
-    }
-
+}
+.coral-conteiner {
+    width: 28%;
+    background-color: #F08080;
+    border: 1px dashed #000000;
+}
+.aqua-conteiner {
+    width: 18%;
+    background-color: #21B2AA;
+    border: 1px dashed #000000;
+}
+.aqua-content {
+    background-color: #7EFFD5;
+}
+.button-bar {
+    background-color: #FEB6C2;
+    border: 1px dashed #000000;
+}
 }
 
 /* header */
@@ -138,37 +154,27 @@
     padding-inline: 150px;
 }
 .aqua-content {
-    background-color: #7EFFD5;
     height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.coral-conteiner {
-    width: 28%;
-    height: 400px;
-    background-color: #F08080;
-    border: 1px dashed #000000;
-    padding: 50px;
-}
 .aqua-conteiner {
-    width: 18%;
     height: 400px;
-    background-color: #21B2AA;
-    border: 1px dashed #000000;
     padding: 50px;
     font-weight: bold;
 }
+.coral-conteiner {
+    height: 400px;
+    padding: 50px;
+}
 .button-bar {
-    background-color: #FEB6C2;
-    border: 1px dashed #000000;
     padding: 6px;
 }
 ul {
     list-style-type: none;
 }
-.centra
-{
+.centra {
     transform: translate(-50% , -50%);
     left: 50%;
     top: 40%;
@@ -177,6 +183,15 @@ ul {
     text-align: center;
     color: #ffffff;
 }
+.distance {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+    padding-left: 0px;
+}
+
 
 /* button */
 .bottone {
